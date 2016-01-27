@@ -1,0 +1,35 @@
+{
+  "title": "Function",
+  "oneOf": [
+    {
+      "$ref": "fn_md5.json"
+    },
+    {
+      "$ref": "fn_sha1.json"
+    },
+    {
+      "$ref": "fn_time.json"
+    },
+    {
+      "$ref": "fn_date.json"
+    },
+    {
+      "$ref": "fn_strtotime.json"
+    },
+    {
+      "$ref": "fn_base64_encode.json"
+    },
+    {
+      "$ref": "fn_hash_hmac.json"
+    },
+    {
+      "$ref": "fn_sprintf.json"
+    },
+    {
+      "$ref": "fn_concat.json"
+    },
+    {
+      "$ref": "fn_implode.json"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://localhost/json-editor/schema/function.json",
+  "title": "Function",
+  "type": "object",
+  "oneOf": [
+    {
+      "$ref": "./fn_md5.json"
+    },
+    {
+      "$ref": "fn_sha1.json"
+    }
+  ]
+}
